@@ -1,0 +1,32 @@
+/* ===== Global Styles ===== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #333;
+  background-color: #f0ebe3;
+  background-image: url('./assets/hero.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 { font-size: 24px; }
+  h2 { font-size: 20px; }
+}
